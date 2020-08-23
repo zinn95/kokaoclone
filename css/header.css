@@ -1,0 +1,16 @@
+header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  padding-top: 15px;
+
+  font-size: 18px;
+}
+header > .subject {
+  font-size: 23px;
+  font-weight: bold;
+}
+header > .option i {
+  margin-left: 10px;
+}
