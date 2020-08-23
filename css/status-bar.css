@@ -27,3 +27,19 @@
   left: 3px;
   top: 10.3px;
 }
+@keyframes facog {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5) rotate(360deg);
+    color: red;
+  }
+  100 {
+    transform: none;
+  }
+}
+
+.option .fa-cog:active {
+  animation: facog 0.2s ease-in infinite;
+}
